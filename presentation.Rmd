@@ -1,0 +1,98 @@
+---
+title: "Science Week Talk"
+author: "Hamed Bastan-Hagh"
+date: '14 March 2023'
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent(
+  base_color = "#002060",
+  inverse_header_color = "#FFFFFF",
+  link_color = "#FF69B4"
+)
+```
+
+class: middle, inverse
+
+# Data Scientist
+
+???
+
+Raise your hand if you know what a data scientist does.
+
+---
+
+.pull-left[
+## Data
+### Information about the world, people, the universe ...
+]
+
+.pull-right[
+## Scientist
+### Understand and explain how the world works.
+]
+
+---
+
+layout: false
+
+class: middle, inverse
+
+## A data scientist uses data to understand and explain how the world works.
+
+---
+
+class: middle, inverse, center
+
+## Data Scientist $\approx$ Statistician
+
+---
+
+class: middle, center
+
+![](https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg)
+
+---
+
+## Start with a question ...
+
+--
+
+## ... Turn that into a maths question ...
+
+--
+
+## ... Put data into the maths question ...
+
+--
+
+## ... Translate back to the original question.
+
+---
+
+## 1. Maths
+## 2. Programming
+## 3. Translating real-world problems into maths (and back again)
