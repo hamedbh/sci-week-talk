@@ -1,7 +1,6 @@
 ---
 title: "Science Week Talk"
 author: "Hamed Bastan-Hagh"
-date: '14 March 2023'
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
@@ -31,7 +30,8 @@ library(xaringanthemer)
 style_mono_accent(
   base_color = "#002060",
   inverse_header_color = "#FFFFFF",
-  link_color = "#FF69B4"
+  link_color = "#FF69B4",
+  extra_css = list(".remark-slide-number" = list("display" = "none"))
 )
 ```
 
@@ -73,7 +73,7 @@ class: middle, inverse, center
 
 class: middle, center
 
-![](https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg)
+![](img/youtube.svg)
 
 ---
 
